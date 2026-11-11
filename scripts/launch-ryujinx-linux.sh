@@ -15,7 +15,7 @@ if [[ ! -f "$SWITCH_GAME_FILE" ]]; then
 fi
 
 launcher_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-log_path="${RYUJINX_LOG_PATH:-${XDG_STATE_HOME:-$HOME/.local/state}/switch-game-laptop-lab/last-launch.log}"
+log_path="${RYUJINX_LOG_PATH:-${XDG_STATE_HOME:-$HOME/.local/state}/nintendo-switch-linux-toolkit/last-launch.log}"
 mkdir -p -- "$(dirname -- "$log_path")" "$RYUJINX_DATA_DIR"
 
 if command -v nvidia-smi >/dev/null 2>&1 && nvidia-smi -L >/dev/null 2>&1; then
@@ -29,7 +29,7 @@ command_line=()
 
 if command -v powerprofilesctl >/dev/null 2>&1 && powerprofilesctl list 2>/dev/null | grep -q 'performance:'; then
   command_line+=(powerprofilesctl launch --profile performance
-    --reason 'Switch game emulator' --appid switch-game-laptop-lab)
+    --reason 'Nintendo Switch emulator' --appid nintendo-switch-linux-toolkit)
 fi
 
 if [[ "${USE_NATIVE_DISPLAY_SESSION:-1}" == 1 ]] && [[ "${XDG_SESSION_TYPE:-x11}" == x11 ]]; then

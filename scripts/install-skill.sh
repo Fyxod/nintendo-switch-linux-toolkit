@@ -3,7 +3,7 @@ set -euo pipefail
 
 repo_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
 skills_root="${CODEX_HOME:-$HOME/.codex}/skills"
-target="$skills_root/switch-game-laptop-lab"
+target="$skills_root/nintendo-switch-linux-toolkit"
 mkdir -p -- "$skills_root"
 if [[ -L "$target" ]] && [[ "$(readlink -f -- "$target")" == "$repo_root" ]]; then
   printf 'Already installed: %s\n' "$target"

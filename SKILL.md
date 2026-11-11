@@ -1,9 +1,9 @@
 ---
-name: switch-game-laptop-lab
+name: nintendo-switch-linux-toolkit
 description: Configure, optimize, and troubleshoot legally dumped Nintendo Switch games in Ryujinx-compatible emulators on Linux laptops, including controller mapping, save-safe display recovery, GPU and thermal diagnosis, and optional Pokémon GO postcard Bluetooth troubleshooting. Use for hands-on Linux emulator setup and repair; do not use to acquire games, firmware, encryption keys, or copyrighted assets.
 ---
 
-# Switch Game Laptop Lab
+# Nintendo Switch Linux Toolkit
 
 Help the user reach a playable, repeatable setup while preserving saves and existing pairings.
 

@@ -1,6 +1,6 @@
 interface:
-  display_name: "Switch Game Laptop Lab"
-  short_description: "Optimize Switch games on Linux laptops"
-  default_prompt: "Use $switch-game-laptop-lab to set up or troubleshoot my legally dumped Switch game on a Linux laptop."
+  display_name: "Nintendo Switch Linux Toolkit"
+  short_description: "Set up and optimize Nintendo Switch games on Linux"
+  default_prompt: "Use $nintendo-switch-linux-toolkit to set up or troubleshoot my legally dumped Nintendo Switch game on a Linux laptop."
 policy:
   allow_implicit_invocation: true
