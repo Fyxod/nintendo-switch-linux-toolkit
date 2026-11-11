@@ -1,0 +1,6 @@
+interface:
+  display_name: "Switch Game Laptop Lab"
+  short_description: "Optimize Switch games on Linux laptops"
+  default_prompt: "Use $switch-game-laptop-lab to set up or troubleshoot my legally dumped Switch game on a Linux laptop."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,29 @@
+# Copyrighted or console-derived data
+*.nsp
+*.xci
+*.nca
+*.nro
+*.nso
+*.tik
+*.cert
+prod.keys
+title.keys
+firmware/
+games/
+portable/
+
+# Personal state and diagnostics
+save/
+saves/
+backups/
+browser/
+profiles/
+*.log
+*.dmp
+*.core
+*identity*
+*pairing*
+DevToolsActivePort
+__pycache__/
+*.pyc
+.DS_Store
